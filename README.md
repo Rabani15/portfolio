@@ -1,4 +1,4 @@
-# rabanichadha.me
+# rabanichadha.com
 
 Personal portfolio for Rabani Chadha. Static site — no build step, no framework.
 
@@ -33,15 +33,12 @@ Open http://localhost:5173.
 
 ---
 
-> **Before either option:** you must own `rabanichadha.me`. As of this writing it is
-> not registered. Buy it at a registrar (Porkbun, Namecheap, Cloudflare) first.
-
 ## Deploy — Option A: Vercel (recommended)
 
 1. Push this folder to a GitHub repo (see "Push to GitHub" below).
 2. Go to https://vercel.com/new, sign in with GitHub, and import the repo.
 3. Framework preset: **Other**. Leave build command and output directory empty. Click **Deploy**.
-4. In the project, open **Settings → Domains**, add `rabanichadha.me` and `www.rabanichadha.me`.
+4. In the project, open **Settings → Domains**, add `rabanichadha.com` and `www.rabanichadha.com`.
 5. Vercel then shows you two DNS records. **Copy the exact values off that screen** — the
    `www` CNAME target is unique per project (something like `d1d4fc829fe7bc7c.vercel-dns-017.com`),
    so values copied from a tutorial will not work. The apex `A` record is usually `76.76.21.21`.
@@ -55,7 +52,7 @@ Every push to `main` redeploys the site.
 1. Push this folder to a GitHub repo named anything (e.g. `portfolio`).
 2. In the repo, go to **Settings → Pages**.
 3. Under **Build and deployment**, set Source to **Deploy from a branch**, branch `main`, folder `/ (root)`. Save.
-4. Under **Custom domain**, enter `rabanichadha.me` and save. The `CNAME` file in this folder keeps it set.
+4. Under **Custom domain**, enter `rabanichadha.com` and save. The `CNAME` file in this folder keeps it set.
 5. At your registrar, add DNS records:
    - Four `A` records, host `@`, values `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`
    - `CNAME` record, host `www`, value `<your-github-username>.github.io`
