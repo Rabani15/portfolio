@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rabani Chadha — Creative · Policy · Strategy</title>
+  <meta name="description" content="Rabani Chadha is a creative and Public Service & Policy student in the University of Washington Honors Program, interested in marketing, law, and tech." />
+  <meta property="og:title" content="Rabani Chadha" />
+  <meta property="og:description" content="Creative · Public Service & Policy @ UW Honors · Marketing, law, tech." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://rabanichadha.me" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Interactive gradient orb background (fades out on scroll) -->
+  <div class="orb-layer" aria-hidden="true">
+    <canvas id="orbs"></canvas>
+  </div>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="top">
+    <a href="#top" class="logo" aria-label="Rabani Chadha — home">
+      <span class="stamp">
+        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect x="2.2" y="2.2" width="95.6" height="95.6" rx="8" fill="none" stroke="currentColor" stroke-width="3.4" />
+          <rect x="9" y="9" width="82" height="82" rx="4" fill="none" stroke="currentColor" stroke-width="1" stroke-dasharray="1.8 2.6" />
+          <text x="50" y="51" text-anchor="middle" font-size="33" fill="currentColor" class="stamp-mono">RC</text>
+          <line x1="27" y1="61" x2="73" y2="61" stroke="currentColor" stroke-width="1.6" />
+          <text x="50" y="76" text-anchor="middle" font-size="10" letter-spacing="2" fill="currentColor" class="stamp-sub">SEATTLE</text>
+        </svg>
+      </span>
+      <span class="wordmark">Rabani<br>Chadha</span>
+    </a>
+
+    <nav class="nav-links" aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#resume">Resume</a>
+      <a href="mailto:rabanichadha5@gmail.com" class="nav-cta">Say hi</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="hero">
+      <div class="hero-inner">
+        <p class="eyebrow reveal">Portfolio — 2026</p>
+        <h1 class="reveal">Hi, I'm<br>Rabani<span class="dot">.</span></h1>
+        <p class="lede reveal">
+          A creative studying Public Service &amp; Policy in the University of
+          Washington Honors Program, drawn to where marketing, law, and tech meet.
+          Orange County raised, Seattle based.
+        </p>
+        <div class="hero-actions reveal">
+          <a href="#about" class="btn btn-dark">About me</a>
+          <a href="#resume" class="btn btn-ghost">View resume</a>
+        </div>
+      </div>
+
+      <a href="#about" class="scroll-cue" aria-label="Scroll to About">
+        <span></span>
+      </a>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">01 — About me</p>
+          <h2>Policy by day,<br>creative<br>always<span class="dot">.</span></h2>
+          <p class="section-intro">
+            I like turning ideas into things people can actually see — a campaign,
+            a story, a strategy, a delegation that shows up prepared. Here's the work
+            that has shaped how I think.
+          </p>
+        </div>
+
+        <!-- Fact strip -->
+        <ul class="facts reveal" aria-label="Quick facts">
+          <li><span class="fact-label">School</span><span>University of Washington</span></li>
+          <li><span class="fact-label">Program</span><span>Interdisciplinary Honors</span></li>
+          <li><span class="fact-label">Major</span><span>Public Service &amp; Policy</span></li>
+          <li><span class="fact-label">From → Now</span><span>Orange County → Seattle</span></li>
+          <li><span class="fact-label">Class of</span><span>2029</span></li>
+        </ul>
+
+        <!-- Cards -->
+        <div class="cards">
+          <article class="card reveal" data-tone="blue">
+            <div class="card-top">
+              <span class="card-index">01</span>
+              <span class="chip">Pre-law</span>
+            </div>
+            <h3>Pre-Law Track at the Evans School</h3>
+            <p>
+              Studying Public Service &amp; Policy at UW's Evans School as part of the
+              Interdisciplinary Honors Program. My coursework and research focus on
+              how policy shapes access — from education equity to the systems that
+              decide who gets heard. I'm building toward law with a policy-first lens.
+            </p>
+            <ul class="tags">
+              <li>Public Policy</li><li>Education Equity</li><li>Honors Program</li>
+            </ul>
+          </article>
+
+          <article class="card reveal" data-tone="pink">
+            <div class="card-top">
+              <span class="card-index">02</span>
+              <span class="chip">Leadership</span>
+            </div>
+            <h3>President, Model United Nations</h3>
+            <p>
+              Led and mentored 50+ delegates in research, negotiation, and public
+              speaking — earning 15+ international awards. Set the annual competition
+              strategy and training curriculum, managed travel logistics and budget,
+              and grew the club's social presence to recruit and showcase results.
+            </p>
+            <ul class="tags">
+              <li>50+ delegates</li><li>15+ awards</li><li>Negotiation</li>
+            </ul>
+          </article>
+
+          <article class="card reveal" data-tone="matcha">
+            <div class="card-top">
+              <span class="card-index">03</span>
+              <span class="chip">Writing</span>
+            </div>
+            <h3>Student Journalism &amp; Research</h3>
+            <p>
+              Reporting, editing, and publishing stories for student audiences taught me
+              to find the angle and write it clean. That instinct carried into
+              <em>“Academic Inequities within the Southern California Education System,”</em>
+              an independent research paper I authored and published through Polygence
+              under the mentorship of Dr. Helen Wu of Duke University.
+            </p>
+            <ul class="tags">
+              <li>Journalistic writing</li><li>Published research</li><li>Editing</li>
+            </ul>
+          </article>
+
+          <article class="card reveal" data-tone="peach">
+            <div class="card-top">
+              <span class="card-index">04</span>
+              <span class="chip">Startup</span>
+            </div>
+            <h3>ADOptimal — Strategy &amp; Growth</h3>
+            <p>
+              Co-owned strategic direction for a startup connecting brands to college
+              students and campus audiences. Built the go-to-market and content
+              strategy, grew social engagement with a data-informed posting cadence,
+              and developed the brand partnership pipeline end to end — identifying,
+              pitching, and structuring sponsor outreach.
+            </p>
+            <ul class="tags">
+              <li>Go-to-market</li><li>Brand partnerships</li><li>Growth</li>
+            </ul>
+          </article>
+        </div>
+
+        <!-- Interests -->
+        <div class="interests reveal">
+          <p class="eyebrow">Currently curious about</p>
+          <div class="marquee" aria-hidden="true">
+            <div class="marquee-track">
+              <span>Marketing</span><span class="sep">✦</span>
+              <span>Law</span><span class="sep">✦</span>
+              <span>Tech</span><span class="sep">✦</span>
+              <span>Creative direction</span><span class="sep">✦</span>
+              <span>Public policy</span><span class="sep">✦</span>
+              <span>Brand strategy</span><span class="sep">✦</span>
+              <span>Marketing</span><span class="sep">✦</span>
+              <span>Law</span><span class="sep">✦</span>
+              <span>Tech</span><span class="sep">✦</span>
+              <span>Creative direction</span><span class="sep">✦</span>
+              <span>Public policy</span><span class="sep">✦</span>
+              <span>Brand strategy</span><span class="sep">✦</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ RESUME ============ -->
+    <section class="resume" id="resume">
+      <div class="container">
+        <div class="resume-card reveal">
+          <div class="resume-copy">
+            <p class="eyebrow">02 — Resume</p>
+            <h2>View my<br>resume<span class="dot">.</span></h2>
+            <p>
+              One page. Education, experience, leadership, research, and the tools I
+              actually use. Open it in your browser or grab the PDF.
+            </p>
+            <div class="resume-actions">
+              <a class="btn btn-red" href="assets/Rabani_Chadha_Resume.pdf" target="_blank" rel="noopener">
+                View Resume
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M4 12L12 4M12 4H6M12 4v6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </a>
+              <a class="btn btn-ghost" href="assets/Rabani_Chadha_Resume.pdf" download="Rabani_Chadha_Resume.pdf">
+                Download PDF
+              </a>
+            </div>
+          </div>
+
+          <div class="resume-preview" aria-hidden="true">
+            <div class="paper">
+              <div class="paper-head">
+                <span class="paper-name">Rabani Chadha</span>
+                <span class="paper-sub">Irvine, CA · Seattle, WA</span>
+              </div>
+              <div class="paper-lines">
+                <span style="width:38%"></span><span style="width:92%"></span><span style="width:84%"></span>
+                <span class="gap"></span>
+                <span style="width:30%"></span><span style="width:88%"></span><span style="width:76%"></span><span style="width:81%"></span>
+                <span class="gap"></span>
+                <span style="width:34%"></span><span style="width:90%"></span><span style="width:70%"></span>
+              </div>
+              <span class="paper-stamp">
+                <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect x="2.2" y="2.2" width="95.6" height="95.6" rx="8" fill="none" stroke="currentColor" stroke-width="3.4" />
+          <rect x="9" y="9" width="82" height="82" rx="4" fill="none" stroke="currentColor" stroke-width="1" stroke-dasharray="1.8 2.6" />
+          <text x="50" y="51" text-anchor="middle" font-size="33" fill="currentColor" class="stamp-mono">RC</text>
+          <line x1="27" y1="61" x2="73" y2="61" stroke="currentColor" stroke-width="1.6" />
+          <text x="50" y="76" text-anchor="middle" font-size="10" letter-spacing="2" fill="currentColor" class="stamp-sub">SEATTLE</text>
+        </svg>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a href="#top" class="logo logo-sm" aria-label="Back to top">
+        <span class="stamp">
+          <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect x="2.2" y="2.2" width="95.6" height="95.6" rx="8" fill="none" stroke="currentColor" stroke-width="3.4" />
+          <rect x="9" y="9" width="82" height="82" rx="4" fill="none" stroke="currentColor" stroke-width="1" stroke-dasharray="1.8 2.6" />
+          <text x="50" y="51" text-anchor="middle" font-size="33" fill="currentColor" class="stamp-mono">RC</text>
+          <line x1="27" y1="61" x2="73" y2="61" stroke="currentColor" stroke-width="1.6" />
+          <text x="50" y="76" text-anchor="middle" font-size="10" letter-spacing="2" fill="currentColor" class="stamp-sub">SEATTLE</text>
+        </svg>
+        </span>
+        <span class="wordmark">Rabani<br>Chadha</span>
+      </a>
+
+      <div class="footer-links">
+        <a href="mailto:rabanichadha5@gmail.com">rabanichadha5@gmail.com</a>
+        <a href="https://www.linkedin.com/in/rabani-chadha-1683062bb" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="assets/Rabani_Chadha_Resume.pdf" target="_blank" rel="noopener">Resume</a>
+      </div>
+
+      <p class="footer-note">© <span id="year"></span> Rabani Chadha · Seattle, WA</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
